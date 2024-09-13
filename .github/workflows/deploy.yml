@@ -2,9 +2,7 @@ name: DEPLOY TO AWS
 on:
   pull_request:
     types: [closed]
-    branches:
-      
-dev
+    branches: dev
 
 jobs:
   aws-deploy:
